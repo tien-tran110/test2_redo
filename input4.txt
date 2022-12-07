@@ -1,0 +1,11 @@
+bat_dau
+e var1;
+e var2;
+
+var1 = 2;
+var2 = 6;
+laplai(var1 < var2){
+    var2 = var2 - 1;
+}
+
+ket_thuc

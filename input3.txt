@@ -1,0 +1,19 @@
+bat_dau
+n num1@ = 2;
+n longnumabc = 3;
+neu (num1 < num2){
+num1 = longnumabc + 3;
+}
+khongthi {
+  num2 += 1;
+}
+ket_thuc
+
+/* lexical error
+1: identifier unmatch because of @ symbol
+1: varialble assignment rule is incorrect
+        it should be like n num1;
+        num1 = 23;
+2: longnumabc is over {6-8} character for an identifier to be matched
+7: unidentified symbol '+=' 
+*/

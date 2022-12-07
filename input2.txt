@@ -1,0 +1,20 @@
+t num1;
+t num2;
+
+num1 = 2
+num2 = 4;
+
+neu (num1 < num2 {
+    num1 = num1 + num2;
+}
+khongthi
+    num2 = num2 - 1
+}
+ket_thuc
+/* syntax error
+1: Expected 'bat_dau' as a rule for program
+4: Expected ';' after 2
+7: expected ')' after num2 as the boolean expression rule
+11: expected ';' 
+7: expected '{' after khongthi
+*/
